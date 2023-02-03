@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(188, 210, 250);
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+div {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+h1 {
+    color: #353434;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    color: rgb(116, 161, 247);
+    transition: all .3s;
+}
+
+a:hover {
+    background-color:#e4e3e3;
+    color: rgb(90, 146, 252);
+}
